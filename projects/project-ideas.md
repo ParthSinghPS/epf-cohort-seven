@@ -194,7 +194,7 @@ Grandine’s documentation requires a comprehensive refresh and expansion. This 
 
 ### Pureth: SSZ Execution Blocks
 
-By Etan Kissling and Tamaghna Choudhuri
+By Tamaghna Choudhuri and Etan Kissling
 
 Pureth aims to make Ethereum execution-layer data easier to access, verify, and consume without requiring trust in centralized RPC providers or third-party indexing services. By moving the Execution Layer toward SSZ-native data structures and proof-friendly serialization, Pureth enables more efficient and trust-minimized access to Ethereum state and historical data.
 
@@ -204,7 +204,7 @@ Follow-up work will explore deeper protocol integration, including SSZ-native tr
 
 ### Pureth: Trustless Log Index
 
-By Etan Kissling and Tamaghna Choudhuri
+By Tamaghna Choudhuri and Etan Kissling
 
 The other major component of Pureth focuses on execution-layer logging improvements, centered around the [Trustless Log Index (EIP-7745)](https://eips.ethereum.org/EIPS/eip-7745). This project aims to implement the [7745b proposal](https://gist.github.com/zsfelfoldi/73d9053f75c28a8461d13e0b61a58f1c) within Execution Layer clients, enabling efficient and provable log querying without reliance on external indexing infrastructure.
 
@@ -212,7 +212,7 @@ The final objective of the project is to deploy an interoperable devnet demonstr
 
 ### SSZ Query Language for the Consensus and Execution Layers
 
-By Etan Kissling and Tamaghna Choudhuri
+By Tamaghna Choudhuri and Etan Kissling 
 
 As a follow-up to Pureth, this project explores the design and implementation of a generalized SSZ query language for both the Consensus Layer and Execution Layer. The goal is to enable efficient, proof-friendly querying of arbitrary SSZ trees, allowing clients and applications to request only the exact subset of Ethereum data they require.
 
